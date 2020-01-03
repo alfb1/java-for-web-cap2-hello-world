@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+<h:head>
+   <title>Teste Inicial JSF</title>
+</h:head>
+
+<h:body>
+  <h:outputText value="Olá Mundo" />
+</h:body>
+
+</html>
+
+<!--  mesmo após todas as configurações feitas na hora de executar aparecia o erro no console do dervidor:
+java.lang.ClassNotFoundException: javax.faces.webapp.FacesServlet
+para resolver :
+"Project Properties" -> "Deployment Assembly", adding "Java Build Path Entries" -> "Maven Dependencies" solves the problem!
+ -->
